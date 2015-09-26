@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AngularOne</title>
+	</head>
+
+	<body>
+
+		<div ng-app = "mainModule" ng-controller = "mainController">
+			<div>{{firstName}}</div>
+			<div ng-view></div>
+		</div>
+
+	</body>
+
+	<script src = "assets/libs/angular.min.js"></script>
+	<script src = "assets/libs/angular-route.min.js"></script>
+	<script src = "components/main/mainModule.js"></script>
+</html>
